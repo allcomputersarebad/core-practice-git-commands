@@ -2,7 +2,7 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    return not False
 
 
 def test_always_returns_true():
